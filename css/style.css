@@ -213,3 +213,50 @@ header .menu ul li:hover a{
   line-height: 50px;
   border-radius: 50%;
 }
+
+/* testimonials */
+
+.testimonials .title h4{
+  text-align: center;
+  font-weight: lighter;
+  padding: 50px 0;
+}
+
+.testimonials .title h2{
+  color: #9792E4;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.testimonials .title p{
+  text-align: center;
+  padding: 40px 0;
+  line-height: 2rem;
+}
+
+.testimonials .card{
+  display: flex;
+  flex-direction: column;
+  background-color: #9792E4;
+  padding: 30px 0;
+  border-radius: 40px;
+  margin: 30px 0;
+}
+
+.testimonials .card img{
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.testimonials .card p{
+  padding: 20px 0;
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+  line-height: 2rem;
+  color: white;
+}

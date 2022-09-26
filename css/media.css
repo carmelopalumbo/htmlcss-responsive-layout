@@ -36,6 +36,23 @@
   .planning .planning-left h2{
     font-size: 3rem;
   }
+
+  .testimonials .card{
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .testimonials .card img{
+    margin: 0;
+    padding: 20px;
+  }
+
+  .testimonials .card p{
+   font-size: 1.3rem;
+   margin: 0;
+   align-self: center;
+  }
+
 }
 
 
@@ -95,4 +112,9 @@
     width: 200px;
     margin-left: 30%;
   }
+
+  .testimonials .card{
+    width: 100%;
+  }
+  
 }
