@@ -342,3 +342,47 @@ header .menu ul li:hover a{
   color: #9792E4;
   line-height: 3rem;
 }
+
+.get-start{
+  background-color: #9792E4;
+  text-align: center;
+}
+
+.get-start h4{
+  color: lightgrey;
+  padding: 30px 0;
+}
+
+.get-start h3{
+  color: white;
+  font-size: 2.5rem;
+  padding: 30px 0;
+}
+
+.get-start h2{
+  color: gold;
+  font-size: 4rem;
+  padding: 30px 0;
+}
+
+.get-start p{
+  line-height: 2rem;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.get-start a{
+  display: inline-block;
+  font-size: 2rem;
+  color: #9792E4;
+  background-color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 40px;
+}
+
+.get-start .copyright{
+  padding: 40px 0;
+  font-size: 0.8rem;
+  color: lightgray;
+}

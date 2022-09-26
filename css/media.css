@@ -68,6 +68,10 @@
     gap: 50px;
   }
 
+  .get-start{
+    width: 100%;
+  }
+
 }
 
 
@@ -139,5 +143,14 @@
 
   .benefits .cardben{
     width: 30%;
+  }
+
+  .get-start{
+    width: 100%;
+  }
+  
+  .get-start p{
+    width: 50%;
+    margin: 0 auto;
   }
 }
