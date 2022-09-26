@@ -72,7 +72,17 @@
     width: 100%;
   }
 
+  .get-start p{
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .credits{
+    width: 100%;
+    margin: 0 auto;
+  }
 }
+
 
 
 /* desktop */
@@ -151,6 +161,11 @@
   
   .get-start p{
     width: 50%;
+    margin: 0 auto;
+  }
+
+  .credits{
+    width: 100%;
     margin: 0 auto;
   }
 }

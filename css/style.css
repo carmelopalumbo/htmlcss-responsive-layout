@@ -386,3 +386,15 @@ header .menu ul li:hover a{
   font-size: 0.8rem;
   color: lightgray;
 }
+
+.credits{
+  height: 300px;
+  background-color: #1F1F1F;
+}
+
+.credits p{
+  padding: 30px 0;
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+}
