@@ -6,6 +6,19 @@
   box-sizing: border-box;
 }
 
+/* mobile first */
+
 body{
   font-family: 'Roboto', sans-serif;
 }
+
+/* utility */
+
+.d-flex{
+  display: flex;
+}
+
+.container{
+  width: 375px;
+}
+
