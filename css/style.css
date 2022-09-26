@@ -309,3 +309,36 @@ header .menu ul li:hover a{
   background-color: #9792E4;
   border-radius: 40px;
 }
+
+/* about us */
+
+.about-us{
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us .text h2{
+  color: #9792E4;
+  font-size: 2.5rem;
+  padding: 50px 0;
+}
+
+.about-us .text p{
+  line-height: 2rem;
+
+}
+
+.about-us .ceo img{
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 40px 0;
+}
+
+.about-us .ceo p{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #9792E4;
+  line-height: 3rem;
+}

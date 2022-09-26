@@ -62,6 +62,12 @@
   .benefits .cardben{
     width: 48%;
   }
+
+  .about-us{
+    flex-direction: row;
+    gap: 50px;
+  }
+
 }
 
 
