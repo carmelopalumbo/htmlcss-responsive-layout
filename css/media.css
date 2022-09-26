@@ -14,12 +14,21 @@
   }
 
   .boxdemo{
-    width: 60%;
+    width: 70%;
+  }
+
+  .boxdemo #phone{
+    height: 360px;
+    position: static;
   }
 
   .box{
     width: 30%;
-    margin: 50px auto;
+  }
+
+  .row{
+    flex-direction: row;
+    align-items: flex-start;
   }
 
 }
@@ -36,5 +45,10 @@
 
   .container{
     width: 1200px;
+  }
+
+  .boxdemo{
+    flex-wrap: nowrap;
+    margin-top: 20px;
   }
 }
