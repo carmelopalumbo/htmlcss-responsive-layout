@@ -29,6 +29,13 @@
     flex-direction: row;
   }
 
+  .planning{
+    width: 100%;
+  }
+
+  .planning .planning-left h2{
+    font-size: 3rem;
+  }
 }
 
 
@@ -64,4 +71,28 @@
     flex-wrap: nowrap;
   }
 
+  .planning{
+    flex-direction: row;
+  }
+
+  .planning-right{
+    height: 540px;
+    bottom: 20px;
+    position: relative;
+    top: 200px;
+    right: 100px;
+  }
+
+  .planning .planning-left p{
+    margin-right: 40%; 
+  }
+
+  .planning .planning-left img{
+    width: 400px;
+  }
+
+  .planning .planning-right img{
+    width: 200px;
+    margin-left: 30%;
+  }
 }
