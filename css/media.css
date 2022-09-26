@@ -52,7 +52,16 @@
    margin: 0;
    align-self: center;
   }
+  
+  .benefits .boxcard{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2%;
+  }
 
+  .benefits .cardben{
+    width: 48%;
+  }
 }
 
 
@@ -116,5 +125,13 @@
   .testimonials .card{
     width: 100%;
   }
-  
+
+  .benefits .boxcard{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .benefits .cardben{
+    width: 30%;
+  }
 }

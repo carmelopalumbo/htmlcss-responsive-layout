@@ -260,3 +260,52 @@ header .menu ul li:hover a{
   line-height: 2rem;
   color: white;
 }
+
+/* beneifts */
+
+.benefits{
+  background-color: #9792E4;
+}
+
+.benefits .boxcard{
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits h2{
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 40px 0;
+  color: white;
+}
+
+.benefits .cardben{
+  background-color: white;
+  padding: 30px;
+  border-radius: 40px;
+  margin: 30px 0;
+}
+
+.benefits .cardben .number{
+  font-size: 4rem;
+  color: #9792E4;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.benefits .cardben .title{
+  font-size: 2rem;
+  color: #9792E4;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.benefits .cardben .btn{
+  display: inline-block;
+  margin: 20px 0;
+  text-decoration: none;
+  color: white;
+  padding: 15px 25px;
+  background-color: #9792E4;
+  border-radius: 40px;
+}
