@@ -21,6 +21,7 @@ body{
 .container{
   width: 480px;
   margin: 0 auto;
+  background-color: white;
 }
 
 
@@ -44,17 +45,12 @@ header .container a{
 /* demo section */
 
 .boxdemo{
+  flex-wrap: wrap;
   width: 80%;
   background-color: #B5DDFF;
   padding: 40px 30px 0 30px;
   border-radius: 20px;
   margin: 50px auto;
-}
-
-.boxdemo .icon{
-  display: block;
-  text-align: center;
-  font-size: 6rem;
 }
 
 .boxdemo h3{
